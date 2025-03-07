@@ -1,0 +1,76 @@
+#ajsocial-canvas-container {
+    display: inline-flex;
+    flex-wrap: nowrap; /* Elemente umbrechen, wenn kein Platz */
+    align-items: flex-start;
+    width: 99%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+  }
+  
+  #ajsocial-canvas {
+    border: 1px solid black;
+    width: 99%;
+
+
+  }
+
+.ajsocial-can-work-box {
+    display: none !important;
+  }
+  
+.hidden {
+    display: none !important;
+  }
+
+  /* Container Styling */
+.aj-social-font-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/* Divider (Strich) nach den Eingabefeldern */
+.aj-social-divider {
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Preisbereich (rechts ausgerichtet) */
+  .aj-social-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Links ausrichten */
+  }
+  
+  .aj-social-price-line {
+    display: flex;
+    justify-content: space-between; /* Preis Text links, Preis rechts */
+    width: 100%;
+  }
+  
+  .aj-social-price-text {
+    text-align: left;
+    font-size: 24px; /* Optional: Schriftgröße für den Text */
+    color: #111;
+    font-weight: 700;
+  }
+  
+  .aj-social-price {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 24px; /* Optional: Schriftgröße für den Preisbetrag */
+    font-weight: 700; /* Optional: Gewicht für den Preisbetrag */
+    color: #111;
+  }
+  .aj-social-price-per-item {
+    text-align: right; /* Macht "pro stk." rechtsbündig */
+    margin-top: 5px; /* Abstand zum Preis */
+    font-size: 0.9em;
+    color: #555; /* Optional, damit "pro stk." etwas weniger auffällig ist */
+  }
+
+
+
